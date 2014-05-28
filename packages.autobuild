@@ -1,0 +1,11 @@
+# This file tells autoproj which packages are made available by the package set,
+# and also allows to customize the configuration of the packages themselves
+#
+# See http://rock-robotics.org/documentation/autoproj/advanced/autobuild.html
+
+orogen_package "slam/orogen/sonar_octomap"
+cmake_package "slam/octomap_wrapper"
+cmake_package "slam/sonar_octomap"
+cmake_package "drivers/bus_schremote"
+cmake_package "gui/vizkit3d_octomap"
+

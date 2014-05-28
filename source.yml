@@ -1,0 +1,20 @@
+# This file gives information about the package (mainly its name) and
+# information about where to get the packages
+#
+# See http://rock-robotics.org/documentation/autoproj/advanced/creating_pkg_set.html
+name: openlead
+
+# This section declares where the packages can be loaded from
+#
+# See http://rock-robotics.org/documentation/autoproj/advanced/importers.html
+version_control:
+  - slam/orogen/sonar_octomap:
+    github: openlead/orogen-sonar_octomap
+  - slam/octomap_wrapper:
+    github: openlead/octomap_wrapper
+  - slam/sonar_octomap:
+    github: openlead/sonaroctomap
+  - drivers/bus_schremote:
+    github: openlead/bus_schremote-Driver
+  - gui/vizkit3d_octomap:
+    github: openlead/vizkit_3d_octomap
