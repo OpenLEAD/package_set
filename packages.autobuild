@@ -6,6 +6,7 @@
 orogen_package "slam/orogen/sonar_octomap"
 cmake_package "slam/octomap_wrapper"
 cmake_package "slam/sonar_octomap"
-cmake_package "drivers/bus_schremote"
+## No need for a driver package for schremote, the supplier-provided package is
+# enough
+# cmake_package "drivers/bus_schremote"
 cmake_package "gui/vizkit3d_octomap"
-
