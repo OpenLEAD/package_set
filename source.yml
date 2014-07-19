@@ -8,6 +8,8 @@ name: openlead
 #
 # See http://rock-robotics.org/documentation/autoproj/advanced/importers.html
 version_control:
+  - slam/orogen/octomap:
+    github: openlead/orogen-octomap
   - slam/orogen/sonar_octomap:
     github: openlead/orogen-sonaroctomap
   - slam/octomap_wrapper:
