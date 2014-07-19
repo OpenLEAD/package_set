@@ -10,3 +10,4 @@ cmake_package "slam/sonar_octomap"
 # enough
 # cmake_package "drivers/bus_schremote"
 cmake_package "gui/vizkit3d_octomap"
+orogen_package 'slam/orogen/octomap'
