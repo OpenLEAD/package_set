@@ -17,6 +17,8 @@ version_control:
   - slam/sonar_octomap:
     github: openlead/sonaroctomap
   - drivers/bus_schremote:
-    github: openlead/bus_schremote-Driver
+    github: openlead/bus_schremote
+  - drivers/orogen/bus_schremote:
+    github: openlead/orogen-bus_schremote
   - gui/vizkit3d_octomap:
     github: openlead/vizkit_3d_octomap
