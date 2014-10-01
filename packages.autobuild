@@ -3,11 +3,16 @@
 #
 # See http://rock-robotics.org/documentation/autoproj/advanced/autobuild.html
 
-orogen_package "slam/orogen/sonar_octomap"
 cmake_package "slam/octomap_wrapper"
 cmake_package "slam/sonar_octomap"
 cmake_package "gui/vizkit3d_octomap"
 cmake_package 'drivers/raw_io'
+cmake_package 'drivers/pressure_velki'
+cmake_package 'drivers/ptu_kongsberg_oe10'
+
 orogen_package 'slam/orogen/octomap'
+orogen_package "slam/orogen/sonar_octomap"
 orogen_package "drivers/orogen/bus_schremote"
 orogen_package 'drivers/orogen/raw_io'
+
+bundle_package 'bundles/rosa'

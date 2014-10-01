@@ -8,6 +8,13 @@ name: openlead
 #
 # See http://rock-robotics.org/documentation/autoproj/advanced/importers.html
 version_control:
+  - drivers/.*:
+    github: openlead/drivers-$PACKAGE_BASENAME
+  - drivers/orogen/.*:
+    github: openlead/drivers-orogen-$PACKAGE_BASENAME
+  - bundles/.*:
+    github: openlead/bundles-$PACKAGE_BASENAME
+
   - slam/orogen/octomap:
     github: openlead/orogen-octomap
   - slam/orogen/sonar_octomap:
@@ -16,15 +23,29 @@ version_control:
     github: openlead/octomap_wrapper
   - slam/sonar_octomap:
     github: openlead/sonaroctomap
-
-
-  - drivers/bus_schremote:
-    github: openlead/drivers-bus_schremote
-  - drivers/orogen/bus_schremote:
-    github: openlead/drivers-orogen-bus_schremote
   - gui/vizkit3d_octomap:
     github: openlead/gui-vizkit3d_octomap
-  - drivers/raw_io:
-    github: openlead/drivers-raw_io
-  - drivers/orogen/raw_io:
-    github: openlead/drivers-orogen-raw_io
+    branch: shader_130_object_instanciation
+
+overrides:
+  - base/cmake:
+    github: openlead/base-cmake
+    branch: master
+  - drivers/sonar_tritech:
+    github: openlead/drivers-sonar_tritech
+    branch: master
+  - drivers/orogen/sonar_tritech:
+    github: openlead/drivers-orogen-sonar_tritech
+    branch: master
+  - drivers/iodrivers_base:
+    branch: master
+  - drivers/orogen/iodrivers_base:
+    branch: tune_busy_wait_loop_behaviour
+  - base/orogen/std:
+    github: openlead/base-orogen-std
+    branch: rock1408
+  - tools/orogen:
+    branch: master
+  - tools/orocos.rb:
+    branch: master
+
