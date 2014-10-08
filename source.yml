@@ -14,7 +14,8 @@ version_control:
     github: openlead/drivers-orogen-$PACKAGE_BASENAME
   - bundles/.*:
     github: openlead/bundles-$PACKAGE_BASENAME
-
+  - tools/rock_webapp:
+    github: openlead/rock-webapp
   - slam/orogen/octomap:
     github: openlead/orogen-octomap
   - slam/orogen/sonar_octomap:
@@ -25,9 +26,14 @@ version_control:
     github: openlead/sonaroctomap
   - gui/vizkit3d_octomap:
     github: openlead/gui-vizkit3d_octomap
-    branch: shader_130_object_instanciation
 
 overrides:
+  - base/types:
+    github: openlead/base-types
+    branch: master
+  - base/orogen/types:
+    github: openlead/base-orogen-types
+    branch: master
   - base/cmake:
     github: openlead/base-cmake
     branch: master
@@ -44,8 +50,10 @@ overrides:
   - base/orogen/std:
     github: openlead/base-orogen-std
     branch: rock1408
-  - tools/orogen:
-    branch: master
   - tools/orocos.rb:
+    branch: master
+  - orogen:
+    branch: master
+  - typelib:
     branch: master
 
