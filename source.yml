@@ -26,6 +26,8 @@ version_control:
     github: openlead/sonaroctomap
   - gui/vizkit3d_octomap:
     github: openlead/gui-vizkit3d_octomap
+  - drivers/orogen/bus_schremote:
+    branch: rosa_max485_hack
 
 overrides:
   - base/types:
