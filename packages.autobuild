@@ -16,6 +16,7 @@ orogen_package 'slam/orogen/octomap'
 orogen_package "slam/orogen/sonar_octomap"
 orogen_package "drivers/orogen/bus_schremote"
 orogen_package 'drivers/orogen/raw_io'
+orogen_package 'drivers/orogen/inclinometer'
 
 bundle_package 'bundles/rosa'
 
