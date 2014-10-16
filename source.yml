@@ -56,4 +56,6 @@ overrides:
     branch: master
   - typelib:
     branch: master
+  - gui/vizkit:
+    branch: master
 
