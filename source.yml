@@ -47,8 +47,6 @@ overrides:
     branch: master
   - drivers/iodrivers_base:
     branch: master
-  - drivers/orogen/iodrivers_base:
-    branch: tune_busy_wait_loop_behaviour
   - base/orogen/std:
     github: openlead/base-orogen-std
     branch: rock1408
