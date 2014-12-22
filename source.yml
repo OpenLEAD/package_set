@@ -31,13 +31,13 @@ version_control:
 
 overrides:
   - base/types:
-    github: openlead/base-types
     branch: master
   - base/orogen/types:
-    github: openlead/base-orogen-types
+    branch: master
+  - base/orogen/std:
+    github: openlead/base-orogen-std
     branch: master
   - base/cmake:
-    github: openlead/base-cmake
     branch: master
   - drivers/sonar_tritech:
     github: openlead/drivers-sonar_tritech
