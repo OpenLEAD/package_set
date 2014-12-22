@@ -49,9 +49,6 @@ overrides:
     branch: master
   - drivers/orogen/iodrivers_base:
     branch: master
-  - base/orogen/std:
-    github: openlead/base-orogen-std
-    branch: rock1408
   - tools/orocos.rb:
     branch: master
   - orogen:
