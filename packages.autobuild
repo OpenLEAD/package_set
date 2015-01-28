@@ -23,3 +23,9 @@ orogen_package 'drivers/orogen/inclinometer'
 bundle_package 'bundles/rosa'
 
 ruby_package 'tools/rock_webapp'
+
+# We need envire with CGAL support
+setup_package 'slam/envire' do |pkg|
+    pkg.define 'USE_CGAL', '1'
+    pkg.depends_on 'cgal'
+end
