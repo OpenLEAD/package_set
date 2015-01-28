@@ -12,6 +12,10 @@ version_control:
     github: openlead/drivers-$PACKAGE_BASENAME
   - drivers/orogen/.*:
     github: openlead/drivers-orogen-$PACKAGE_BASENAME
+  - slam/.*:
+    github: openlead/slam-$PACKAGE_BASENAME
+  - slam/orogen/.*:
+    github: openlead/slam-orogen-$PACKAGE_BASENAME
   - bundles/.*:
     github: openlead/bundles-$PACKAGE_BASENAME
   - tools/rock_webapp:

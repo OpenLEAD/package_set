@@ -8,6 +8,8 @@ cmake_package "slam/sonar_octomap"
 cmake_package "gui/vizkit3d_octomap"
 cmake_package 'drivers/raw_io'
 cmake_package 'drivers/pressure_velki'
+cmake_package 'slam/mls_to_text'
+cmake_package 'slam/orogen/laserscan_mls_builder'
 orogen_package 'drivers/orogen/pressure_velki'
 cmake_package 'drivers/ptu_kongsberg_oe10'
 orogen_package 'drivers/orogen/ptu_kongsberg_oe10'
