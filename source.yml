@@ -34,6 +34,22 @@ version_control:
     branch: rosa_max485_hack
 
 overrides:
+  - base/admin_scripts:
+    branch: master
+  - base/scripts:
+    branch: master
+  - tools/orocos.rb:
+    branch: master
+  - tools/pocolog:
+    branch: master
+  - tools/vizkit3d:
+    branch: master
+  - orogen:
+    branch: master
+  - typelib:
+    branch: master
+  - gui/vizkit:
+    branch: master
   - base/types:
     branch: master
   - base/orogen/types:
@@ -52,13 +68,5 @@ overrides:
   - drivers/iodrivers_base:
     branch: master
   - drivers/orogen/iodrivers_base:
-    branch: master
-  - tools/orocos.rb:
-    branch: master
-  - orogen:
-    branch: master
-  - typelib:
-    branch: master
-  - gui/vizkit:
     branch: master
 
