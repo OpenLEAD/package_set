@@ -42,11 +42,11 @@ overrides:
     branch: master
   - tools/pocolog:
     branch: master
-  - tools/vizkit3d:
-    branch: master
   - orogen:
     branch: master
   - typelib:
+    branch: master
+  - gui/vizkit3d:
     branch: master
   - gui/vizkit:
     branch: master
@@ -69,4 +69,3 @@ overrides:
     branch: master
   - drivers/orogen/iodrivers_base:
     branch: master
-
