@@ -7,6 +7,7 @@ cmake_package "slam/octomap_wrapper"
 cmake_package "slam/sonar_octomap"
 cmake_package "gui/vizkit3d_octomap"
 cmake_package 'drivers/raw_io'
+cmake_package 'drivers/rosa_dfki_ucontroller'
 cmake_package 'drivers/pressure_velki'
 cmake_package 'slam/mls_to_text'
 orogen_package 'slam/orogen/laserscan_mls_builder'
@@ -19,6 +20,7 @@ orogen_package "slam/orogen/sonar_octomap"
 orogen_package "drivers/orogen/bus_schremote"
 orogen_package 'drivers/orogen/raw_io'
 orogen_package 'drivers/orogen/inclinometer'
+orogen_package 'drivers/orogen/rosa_dfki_ucontroller'
 
 bundle_package 'bundles/rosa'
 
