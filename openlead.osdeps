@@ -1,3 +1,9 @@
 matio:
     debian,ubuntu:
         libmatio-dev
+
+thin: gem
+rack: gem
+grape: gem
+multi_json: gem
+faye-websocket: gem
