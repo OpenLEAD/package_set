@@ -47,10 +47,13 @@ overrides:
   - typelib:
     branch: master
   - gui/vizkit3d:
+    github: openlead/gui-vizkit3d
     branch: master
   - gui/vizkit:
+    github: openlead/gui-vizkit
     branch: master
   - base/types:
+    github: openlead/base-types
     branch: master
   - base/orogen/types:
     branch: master
